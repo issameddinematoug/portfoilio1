@@ -1,0 +1,91 @@
+/*lien style css */
+@charset "UTF-8";
+/*fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+
+/*le corp*/
+body {
+    font-family: 'Dancing Script', cursive;
+    width: 100%;
+    height: 100%;
+}
+
+/*header*/
+.header{
+    background-color:#000000 ;
+    height: 70px;
+    line-height: 70px;
+}
+.logo{
+    color: #f4f4f4;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float:left
+}
+.menu{
+    float: right;
+
+}
+.menu a{
+    color: #D0D3D9;
+    margin-right: 20px;
+}
+
+
+
+/*fin du header*/
+
+/*banniere*/
+
+/*fin de la banniere*/
+
+/*aout*/
+
+/*fin aout*/
+
+/*portfolio*/
+
+/*fin du porfolio*/
+
+/**/
+/**/
+
+/*contact*/
+
+h4,
+h5 {
+    margin: 0 0 35px 0;
+    font-family: 'Patua One', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.6em;
+}
+
+a {
+    color: #26a5d3;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+    color: #d38826;
+}
+
+#contact {
+    background: #333333;
+    color: #f4f4f4;
+    padding-bottom: 80px;
+}
+
+textarea.form-control {
+    height: 100px;
+}
+
+/*fin de contac*/
